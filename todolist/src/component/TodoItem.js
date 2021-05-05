@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import './TodoItem.css'
 
 class TodoItem extends Component {
+	// TodoItem 컴포넌트 최적화 : checked 값이 바뀔때만 리랜더링
 	shouldComponentUpdate(nextProps, nextState, nextContext) {
 		return this.props.checked !== nextProps.checked;
 	}

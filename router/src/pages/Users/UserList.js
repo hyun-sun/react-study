@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, Fragment} from "react";
 import { Link } from "react-router-dom";
 import { users } from "./data.json"
 
@@ -6,7 +6,7 @@ class UserList extends Component {
 	render() {
 		let {match} = this.props;
 		return (
-			<>
+			<Fragment>
 				<h2>User List</h2>
 				<ul>
 					{users.map(({id, name}) => (
@@ -15,7 +15,7 @@ class UserList extends Component {
 						</li>
 					))}
 				</ul>
-			</>
+			</Fragment>
 		);
 	}
 }

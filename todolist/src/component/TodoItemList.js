@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TodoItem from './TodoItem'
 
 class TodoItemList extends Component {
+	// TodoItemList 컴포넌트 최적화 : todos 값이 바뀔때만 리렌더링
 	shouldComponentUpdate(nextProps, nextState, nextContext) {
 		return this.props.todos !== nextProps.todos;
 	}
