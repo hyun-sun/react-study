@@ -1,0 +1,40 @@
+{
+	"characters": [
+		{
+			"id": 1,
+			"name": "이름",
+			"profile": "잘생김",
+			"createDate": "2021-04-01",
+			"bio": "bio111",
+			"sheet": [
+				{
+					"rule": "인세인"
+				},
+				{
+					"rule": "CoC"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "이름2",
+			"profile": "평범",
+			"createDate": "2021-04-05",
+			"bio": "bio22"
+		},
+		{
+			"id": 3,
+			"name": "이름3",
+			"profile": "그냥",
+			"createDate": "2021-04-22",
+			"bio": "bio33"
+		},
+		{
+			"id": 4,
+			"name": "이름4",
+			"profile": "naver",
+			"createDate": "2021-05-01",
+			"bio": "bio44"
+		}
+	]
+}
