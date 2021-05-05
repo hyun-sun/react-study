@@ -3,8 +3,8 @@ import {characters} from "../data/data.json";
 
 class CharDetail extends Component {
 	render() {
-		let {params} = this.props.match;
-		const charr = characters.find(charr => charr.id == params.id);
+		let {match} = this.props;
+		const charr = characters.find(charr => charr.id == match.params.id);
 
 		return (
 			<Fragment>
